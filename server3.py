@@ -17,6 +17,7 @@
 #  LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
 #  FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER
 #  DEALINGS IN THE SOFTWARE.
+#-------------------------------------------------------------------------------------------
 
 import csv
 # from BaseHTTPServer import BaseHTTPRequestHandler,HTTPServer
@@ -31,7 +32,7 @@ from datetime import timedelta, datetime
 from random import normalvariate, random
 from socketserver import ThreadingMixIn
 
-import dateutil.parser
+from dateutil import parser
 
 ################################################################################
 #
